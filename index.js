@@ -2,9 +2,8 @@ const fs = require("fs");
 const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
-const util = require('util');
+const util = require("util");
 const writeReadFile = util.promisify(fs.writeFile);
-
 
 // array of questions for user
 const questions = () =>
@@ -58,28 +57,20 @@ const questions = () =>
     },
   ]);
 
-/* questions()
-.then((answers)=> writeReadFile('readme.md', generateMarkdown.generateMarkdown(answers))) */
-
-
-
 // function to write README file
 function writeToFile(fileName, data) {
-   writeReadFile(fileName, data)
+  writeReadFile(fileName, data);
 }
 
 // function to initialize program
 function init() {
   questions()
-   .then((answers)=> writeToFile('README.md', generateMarkdown.generateMarkdown(answers)))
-  .then(() => console.log('Successfully wrote to index.html'))
-  .catch((err) => console.error(err)); 
- 
+    .then((answers) =>
+      writeToFile("README.md", generateMarkdown.generateMarkdown(answers))
+    )
+    .then(() => console.log("Successfully wrote to index.html"))
+    .catch((err) => console.error(err));
 }
-
 
 // function call to initialize program
 init();
-//writeToFile('README.md', generateMarkdown.generateMarkdown(answers))
-
-

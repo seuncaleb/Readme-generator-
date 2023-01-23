@@ -6,32 +6,37 @@
   
   
   ## Table of Contents
+  1. [Installation] (#installation)
+
+  2. [Usage] (#usage)
+
+  3. [License] (#license)
+
+  4. [Contribution] (#contribution)
+
+  5. [Tests] (#tests)
   
-  [Installation] (#installation)
-  [Usage] (#usage)
-  [License] (#license)
-  [Contribution] (#contribution)
-  [Tests] (#tests)
-  [Questions] (#questions)
+  6. [Questions] (#questions)
   
   
   ## Installation <a name='installation'></a>
   npm install
   
   # #Usage <a name='usage'></a>
-  Generate readme for their project
+  Users can Generate readme for their project without going through stress
   
   ## License <a name='license'></a>
   Mit License
   
   ## Contributing <a name='contribution'></a>
-  undefined
+  Solo Contributor
   
   ## Tests <a name='tests'></a>
   
   ## Questions <a name='questions'></a>
-  [Github](https://github.com/calebibejigba@gmail.com)
-  email: calebibejigba@gmail.com . you can send me an email if you have any questions concerning this project
+  Github Profile: [Github] (https://github.com/calebibejigba@gmail.com)
+
+  Contact: send me an email at calebibejigba@gmail.com  if you have any questions concerning this project or you would like to collaborate on any other project
 
   
 
