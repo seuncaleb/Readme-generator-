@@ -1,37 +1,37 @@
-# Project Title:  Random read me generator 
+# Project Title:  Project README Generator
 
 
   ## Description
-  This project shows you how to generate readme files for your project
+  This project shows you how to generate README files for your project
   
   
   ## Table of Contents
   
-  1. [Installation] (#installation)
-  2. [Usage] (#usage)
-  3. [License] (#license)
-  4. [Contribution] (#contribution)
-  5. [Tests] (#tests)
-  6. [Questions] (#questions)
+  [Installation] (#installation)
+  [Usage] (#usage)
+  [License] (#license)
+  [Contribution] (#contribution)
+  [Tests] (#tests)
+  [Questions] (#questions)
   
   
-  ##Installation <a name='installation'></a>
+  ## Installation <a name='installation'></a>
   npm install
   
-  ##Usage <a name='usage'></a>
-  generate markdown applications
+  # #Usage <a name='usage'></a>
+  Generate readme for their project
   
-  ##License <a name='license'></a>
+  ## License <a name='license'></a>
   Mit License
   
-  ##Contributing <a name='contribution'></a>
+  ## Contributing <a name='contribution'></a>
   undefined
   
-  ##Tests <a name='tests'></a>
+  ## Tests <a name='tests'></a>
   
-  ##Questions <a name='questions'></a>
+  ## Questions <a name='questions'></a>
   [Github](https://github.com/calebibejigba@gmail.com)
-  email: caleb . you can send me an email if you have any questions concerning this project
+  email: calebibejigba@gmail.com . you can send me an email if you have any questions concerning this project
 
   
 

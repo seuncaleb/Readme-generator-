@@ -31,7 +31,7 @@ function generateMarkdown(data) {
   
   ## Tests <a name='tests'></a>
   
-  ##Questions <a name='questions'></a>
+  ## Questions <a name='questions'></a>
   [Github](https://github.com/${data.email})
   email: ${data.email} . you can send me an email if you have any questions concerning this project
 
