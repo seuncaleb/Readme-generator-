@@ -1,8 +1,10 @@
-# Project Title:  Random read me generator 
+// function to generate markdown for README
+function generateMarkdown(data) {
+ return  `# Project Title:  ${data.title}
 
 
   ## Description
-  This project shows you how to generate readme files for your project
+  ${data.description}
   
   
   ## Table of Contents
@@ -16,22 +18,26 @@
   
   
   ##Installation <a name='installation'></a>
-  npm install
+  ${data.installation}
   
   ##Usage <a name='usage'></a>
-  generate markdown applications
+  ${data.usage}
   
   ##License <a name='license'></a>
-  Mit License
+  ${data.license}
   
   ##Contributing <a name='contribution'></a>
-  undefined
+  ${data.contribution}
   
   ##Tests <a name='tests'></a>
   
   ##Questions <a name='questions'></a>
-  [Github](https://github.com/calebibejigba@gmail.com)
-  email: caleb . you can send me an email if you have any questions concerning this project
+  [Github](https://github.com/${data.email})
+  email: ${data.email} . you can send me an email if you have any questions concerning this project
 
   
 
+`;
+}
+
+module.exports = {generateMarkdown};
