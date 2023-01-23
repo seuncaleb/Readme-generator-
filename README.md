@@ -6,17 +6,17 @@
   
   
   ## Table of Contents
-  1. [Installation] (#installation)
+  1. [Installation](#installation)
 
-  2. [Usage] (#usage)
+  2. [Usage](#usage)
 
-  3. [License] (#license)
+  3. [License](#license)
 
-  4. [Contribution] (#contribution)
+  4. [Contribution](#contribution)
 
-  5. [Tests] (#tests)
+  5. [Tests](#tests)
   
-  6. [Questions] (#questions)
+  6. [Questions](#questions)
   
   
   ## Installation <a name='installation'></a>
