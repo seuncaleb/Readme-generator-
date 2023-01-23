@@ -9,27 +9,27 @@ function generateMarkdown(data) {
   
   ## Table of Contents
   
-  1. [Installation] (#installation)
-  2. [Usage] (#usage)
-  3. [License] (#license)
-  4. [Contribution] (#contribution)
-  5. [Tests] (#tests)
-  6. [Questions] (#questions)
+  [Installation] (#installation)
+  [Usage] (#usage)
+  [License] (#license)
+  [Contribution] (#contribution)
+  [Tests] (#tests)
+  [Questions] (#questions)
   
   
-  ##Installation <a name='installation'></a>
+  ## Installation <a name='installation'></a>
   ${data.installation}
   
-  ##Usage <a name='usage'></a>
+  # #Usage <a name='usage'></a>
   ${data.usage}
   
-  ##License <a name='license'></a>
+  ## License <a name='license'></a>
   ${data.license}
   
-  ##Contributing <a name='contribution'></a>
+  ## Contributing <a name='contribution'></a>
   ${data.contribution}
   
-  ##Tests <a name='tests'></a>
+  ## Tests <a name='tests'></a>
   
   ##Questions <a name='questions'></a>
   [Github](https://github.com/${data.email})
