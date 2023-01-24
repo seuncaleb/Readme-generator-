@@ -38,6 +38,8 @@ function generateMarkdown(data) {
   5. [Tests](#tests)
 
   6. [Questions](#questions)
+
+  7. [Tutorial](#video)
   
   
   ## Installation <a name='installation'></a>
@@ -59,7 +61,8 @@ function generateMarkdown(data) {
 
   Contact: send me an email at ${data.email}  if you have any questions concerning this project or you would like to collaborate on any other project
 
-  
+  ## Video <a name='video'></a>
+  [![Video](./video/Untitled_%20Jan%2024%2C%202023%209_20%20PM.webm)
 
 `;
 }
